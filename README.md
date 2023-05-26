@@ -1,4 +1,4 @@
-# CRUD-php
+# CRUD PHP
 
 Projeto desenvolvido como requisito para obtenção de nota na disciplina de Desenvolvimento Web do Curso de Ciência da Computação.
 

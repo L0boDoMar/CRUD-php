@@ -1,0 +1,116 @@
+/*Padrão*/
+body {
+  background: rgb(186, 236, 236);
+  
+}
+
+/*CADASTRO E EDIÇÃO*/
+
+.container-cadastro{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-cadastro{
+  width: 60%;
+  padding: 20px;
+  border: 1px solid;
+  border-radius:15px;
+  box-shadow: 3px 6px 8px 3px;
+
+}
+
+.formulario-cadastro{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*Inputs e calendário*/
+.form-control, .input-group-append{
+    margin-bottom: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 43px;
+}
+
+/*botão submit cadastro*/
+.btn-cadastro{
+    border: 1px solid black;
+    margin-top: 30px;
+    width: 200px;
+    
+}
+
+/*alerta de campo não preenchido*/
+
+.alerta-erro{
+  margin-top: 20px;
+  width: 350px;
+}
+
+/*INDEX*/
+
+/* CABEÇALHO */
+
+.cabecalho {
+  width: 100%;
+  float: left;
+  padding: 25px 0px 25px 0px;
+  display: inline;
+}
+
+
+
+.cabecalho form {
+  width: 30%;
+  float: right;
+}
+
+.cabecalho input{
+  width: 85%;
+  float: left;
+  padding: 15px 10px;
+  border-radius: 10px 0 0 10px;
+}
+
+.btn-pesquisa {
+  width: 15%;
+  float: right;
+  padding: 15px 10px;
+  border-radius: 0 10px 10px 0;
+  background-color: #0abff7;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn-cadastro-index{
+  width: 25%;
+  float: left;
+  padding: 15px 10px;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.container-index{
+  height: 100vh;
+  padding: 20px;
+  position: relative;
+}
+
+.card-index{
+  padding: 20px;
+  border: 1px solid;
+  border-radius:15px;
+  box-shadow: 3px 6px 8px 3px;
+}
+
+.rodape {
+  width: 100%;
+  float: left;
+  padding: 25px 0px 25px 0px;
+}
+

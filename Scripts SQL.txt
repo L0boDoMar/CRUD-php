@@ -1,0 +1,20 @@
+#Criação do database 'crud'
+CREATE DATABASE crud;
+
+#seleciona o database 'crud' para uso 
+USE crud;
+
+#criação da tabela aluno.
+# Atributos: nome, data de nascimento, ra(chave primária), renda, email
+#o valor de RA é incrementado automaticamente
+CREATE TABLE aluno(
+    nome VARCHAR(30) NOT NULL,
+    dataNasc DATE NOT NULL,
+    ra INT(7) AUTO_INCREMENT,
+    renda FLOAT NOT NULL,
+    email VARCHAR(50), 
+    PRIMARY KEY (ra)
+    );
+    
+ #Inserindo alguns dados para teste
+ INSERT INTO aluno(nome, dataNasc, ra, renda, email) VALUES ("Ariclenes da Silva Macambi","2000-12-24", NULL, "2000.00","macambi@gmail.com");
